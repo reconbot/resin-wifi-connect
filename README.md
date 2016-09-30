@@ -2,6 +2,12 @@
 
 A tool to allow wifi configuration to be set via a captive portal.
 
+## Todo
+- [ ] figure out why it doesn't work
+- [ ] make a standalone npm package
+- [ ] get rid of coffeescript
+- [ ] make the ssid name include part of the uuid by default
+
 ## How to use this
 This is a [resin.io](http://resin.io) application. Check out our [Getting Started](http://docs.resin.io/#/pages/installing/gettingStarted.md) guide if it's your first time using Resin.
 
