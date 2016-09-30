@@ -24,10 +24,6 @@ WORKDIR /usr/src/app
 COPY package.json ./
 RUN JOBS=MAX npm install --unsafe-perm --production && npm cache clean
 
-COPY bower.json .bowerrc ./
-RUN ./node_modules/.bin/bower --allow-root install \
-	&& ./node_modules/.bin/bower --allow-root cache clean
-
 COPY . ./
 RUN ./node_modules/.bin/coffee -c ./src
 RUN chmod +x ./start
