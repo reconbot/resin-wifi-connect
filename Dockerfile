@@ -1,5 +1,6 @@
-FROM resin/%%RESIN_ARCH%%-node:0.12.2
+FROM resin/edison-node:0.12
 
+# Install packages
 RUN apt-get update && apt-get install -y \
 	bind9 \
 	bridge-utils \
