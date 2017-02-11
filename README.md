@@ -1,5 +1,7 @@
 # resin-wifi-connect
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reconbot/resin-wifi-connect.svg)](https://greenkeeper.io/)
+
 A tool to allow wifi configuration to be set via a captive portal.
 
 ## Todo
